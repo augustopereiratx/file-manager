@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pathOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="DELETAR"
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="8dp"/>
+
+        <Button
+            android:text="COPIAR"
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="10dp"/>
+
+        <Button
+            android:text="MOVER"
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="10dp"/>
+
+        <Button
+            android:text="NOME"
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="10dp"/>
+
+        <Button
+            android:text="..."
+            android:id="@+id/bt5"
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

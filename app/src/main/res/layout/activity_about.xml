@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/about"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/splash"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bergamota File Manager V1.0"
+        android:paddingHorizontal="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicativo desenvolvido por Augusto Teixeira, ideia de Marcos Furrakama e trabalhos escritos feitos por Leonardo Bezuti. Esse aplicativo foi feito como projeto para o segundo semestre do 3º ano do colégio Eniac de Guarulhos (Instrução: professor Lúcio Luzetti)."
+        android:paddingHorizontal="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/eniac"
+        android:padding="15dp"
+        android:layout_marginTop="200dp"/>
+</LinearLayout>
